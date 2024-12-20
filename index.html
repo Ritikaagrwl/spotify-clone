@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+
+    <link rel="shortcut icon" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png" type="image/x-icon">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <nav class="display">
+        <img class="logo" src="assets/logo.svg" alt="">
+        <div class="search-tab display">
+            <div class="home">
+                <img src="assets/home.svg" alt="">
+            </div>
+
+            <div class="search display">
+                <div class="box1 display">
+                    <img class="magnifier" src="assets/magnifier.svg" alt="search">
+                    <input type="text" placeholder="What do you want to play?">
+                </div>
+
+                <div class="box2 display">
+                    <div class="line"></div>
+                    <img class="browse" src="assets/browse.svg" alt="browse">
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="sign-up">Sign up</button>
+            <button onclick= "window.location.href = 'loginwindow.html';" class="log-in">Log in</button>
+        </div>
+    </nav>
+
+    <div class="container display justify-even">
+        <div class="box-left">
+            <div class="playlist-box display align-center">
+                <div class="left display align-center">
+                    <img src="assets/playlist.svg" alt="playlist">
+                    <p>Your Library</p>
+                </div>
+                <div class="right">
+                    <img src="assets/plus.svg" alt="">
+                </div>
+
+            </div>
+            <div class="upper-box">
+                <div class="box create-playlist">
+                    <p>Create your first playlist</p>
+                    <p>It's easy, we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+                <div class="box browse-podcasts">
+                    <p>Let's find some podcasts to follow</p>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button>Browse podcasts</button>
+                </div>
+            </div>
+            <div class="lower-box">
+                <div class="spans display">
+                    <span><a href="https://www.spotify.com/in-en/legal/end-user-agreement/">Legal</a></span>
+                    <span><a href="https://www.spotify.com/in-en/safetyandprivacy">Safety & Privacy Center</a></span>
+                    <span><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></span>
+                    <span><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></span>
+                    <span><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></span>
+                    <span><a href="https://www.spotify.com/in-en/accessibility">Accessibilty</a></span>
+                </div>
+                <p><a  class="white" href="https://www.spotify.com/in-en/legal/cookies-policy/" target="_blank">Cookies</a></p>
+                <button class="display">
+                    <img src="assets/web.svg" alt="">
+                    <p>English</p>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="box-right">
+                <div class="first-box">
+                    <div class="heading display">
+                        <h2><a href="#">Popular artists</a></h2>
+                        <p><a class="grey" href="#">Show all</a></p>
+                    </div>
+    
+                    <div class="card-container display">
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="Pritam-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Pritam</h4>
+                            <p>Artist</p>
+                        </div>
+    
+                        <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616100005174bd6fbc7d0973cc33940781ad" alt="Sachin-Jigar-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Sachin-Jigar</h4>
+                            <p>Artist</p>
+                        </div>
+    
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="AR-Rahman-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>A.R. Rahman</h4>
+                            <p>Artist</p>
+                        </div>
+    
+    
+                        <div class="card ">
+                        <img class="arijit" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="Arijit-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Arijit Singh</h4>
+                            <p>Artist</p>
+                        </div>
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="Vishal-Shekhar-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Vishal-Shekhar</h4>
+                            <p>Artist</p>
+                        </div>
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="Atif-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Atif Aslam</h4>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="first-box no-gradient">
+                    <div class="heading display">
+                        <h2><a href="#">Popular albums and singles</a></h2>
+                        <p><a class="grey" href="#">Show all</a></p>
+                    </div>
+    
+                    <div class="card-container display">
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="Glory-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>GLORY</h4>
+                            <p>Yo Yo Honey Singh</p>
+                        </div>
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0209c9bf421422262c368009d6" alt="Patandar-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Patandar</h4>
+                            <p>Arjan Dhillon, Mxrci</p>
+                        </div>
+    
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="Aashiqui2-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Aashiqui 2</h4>
+                            <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                        </div>
+    
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="JoTumMereHo-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Jo Tum Mere Ho</h4>
+                            <p>Anuv Jain</p>
+                        </div>
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="MakingMemories-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Making Memories</h4>
+                            <p>Karan Aujla, Ikky</p>
+                        </div>
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="YehJawaaniHaiDeewani-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Yeh Jawaani Hai Deewani</h4>
+                            <p>Pritam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="first-box no-gradient">
+                    <div class="heading display">
+                        <h2><a href="#">Popular albums and singles</a></h2>
+                        <p><a class="grey" href="#">Show all</a></p>
+                    </div>
+    
+                    <div class="card-container display">
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="Glory-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>GLORY</h4>
+                            <p>Yo Yo Honey Singh</p>
+                        </div>
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0209c9bf421422262c368009d6" alt="Patandar-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Patandar</h4>
+                            <p>Arjan Dhillon, Mxrci</p>
+                        </div>
+    
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="Aashiqui2-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Aashiqui 2</h4>
+                            <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                        </div>
+    
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="JoTumMereHo-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Jo Tum Mere Ho</h4>
+                            <p>Anuv Jain</p>
+                        </div>
+    
+                        <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="MakingMemories-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Making Memories</h4>
+                            <p>Karan Aujla, Ikky</p>
+                        </div>
+    
+                        <div class="card ">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="YehJawaaniHaiDeewani-Image">
+                            <div class="button"><img src="assets/button.svg" alt=""></div>
+                            <h4>Yeh Jawaani Hai Deewani</h4>
+                            <p>Pritam</p>
+                        </div>
+                    </div>
+                </div>
+      
+        </div>
+    </div>
+
+    <footer class="display">
+        <div class="left display">
+            <h4>Preview of Spotify</h4>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card  needed.</p>
+        </div>
+        <div class="right">
+            <button>Sign up for free</button>
+        </div>
+    </footer>
+
+</body>
+
+</html>
